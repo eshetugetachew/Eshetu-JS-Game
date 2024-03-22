@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+
+  font-weight: bold;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  font-size: 18px;
+}
+.again {
+  background-color: #0066b2;
+  border: 3px solid #0066b2;
+  padding: 8px 30px;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-top: 10px;
+  box-shadow: 8px 2px 8px rgba(31, 30, 30, 0.699);
+}
+.section {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 80px;
+  color: rgb(255, 255, 255);
+}
+.main {
+  position: relative;
+}
+.ques {
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 80px;
+  padding: 1px 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  border: 2px solid wheat;
+  background-color: rgb(255, 255, 255);
+  color: rgb(230, 198, 139);
+}
+.main2 {
+  margin-top: 80px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.high {
+  grid-row: 3/3;
+}
+.txt {
+  justify-self: flex-start;
+  padding: 5px 7px;
+  border-radius: 5px;
+  border: 2px solid wheat;
+  margin-left: 10px;
+  resize: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  outline: none;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+}
+hr {
+  background-color: wheat;
+  border: 1px solid wheat;
+}
+.check {
+  justify-self: flex-start;
+  background-color: #0c6fbb;
+  border: 3px solid #0c6fbb;
+  box-shadow: 8px 2px 8px rgba(31, 30, 30, 0.699);
+  padding: 8px 30px;
+  margin-left: 22px;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.sco {
+  margin-top: -50px;
+  margin-left: 60%;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+.high {
+  margin-left: 60%;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+.startguess {
+  font-size: 15px;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+}
+.container {
+  background: linear-gradient(
+      180deg,
+      rgba(8, 8, 8, 0.863),
+      rgba(255, 255, 255, 0.856)
+    ),
+    url(eshh.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  background-position: center;
+  height: 100vh;
+}
+.head {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-top: 15px;
+}
+.sp {
+  color: wheat;
+}
+.sp1 {
+  color: wheat;
+}
